@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HabTrac</string>
+    <string name="habtrac">HabTrac</string>
+    <string name="habit_name">Habit Name</string>
+    <string name="habit_description">Habit Description</string>
+    <string name="completed">Completed</string>
+    <string name="delete">Delete</string>
+    <string name="view_history">View History</string>
+    <string name="add_new_habit">Add New Habit</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtHabitName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habit Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration (in days)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSetReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSaveHabit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Habit"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
